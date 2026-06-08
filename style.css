@@ -1,4 +1,4 @@
-.caja1 {
+.cajaarriba {
     display: flex;
 }
 
@@ -17,8 +17,41 @@
     text-align: center;
 }
 
-.cp {
+.cajagris {
     background-color: rgb(187, 187, 187);
-    width: 350px;
+    width: 340px;
+    padding: 20px;
     text-align: center;
+}
+
+.caja1 {
+    background-color: #ffffff;
+    width: 296px;
+    border-radius: 3px;
+    padding: 15px;
+    text-align: left;
+    border-left: 5px solid rgb(44, 120, 226);
+}
+
+.caja2 {
+    background-color: #ffffff;
+    width: 300px;
+    border-radius: 3px;
+    padding: 15px;
+    text-align: left;
+}
+
+.cajaboton {
+    background-color: #ffffff;
+    width: 300px;
+    border-radius: 3px;
+    padding: 15px;
+    text-align: right;
+}
+
+.b {
+    background-color: rgb(44, 120, 226);
+    padding: 5px;
+    border-radius: 3px;
+    color: #ffffff;
 }
